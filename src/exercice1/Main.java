@@ -13,8 +13,9 @@ public class Main {
 
         System.out.println("=== AFFICHAGE DES PRODUITS ===");
 
-        for (int i = 0; i < produits.length; i++) {
-            produits[i].afficher();
-        }
+        for (Produit p : produits) {
+            p.afficher();
+}
+
     }
 }
